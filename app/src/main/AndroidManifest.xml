@@ -10,8 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.K40ntrol">
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".K40ntrol"
+            android:exported="true"
+            android:label="@string/title_activity_k40ntrol"
+            android:theme="@style/Theme.K40ntrol.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -5,41 +5,42 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#03A9F4"
-    tools:context=".MainActivity">
+    android:visibility="visible"
+    tools:context=".ui.gallery.NavigateFragment">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/button_right_down"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:onClick="move_laser_se"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/imageView5"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintStart_toEndOf="@+id/button_fire"
+        app:layout_constraintTop_toBottomOf="@+id/button_fire"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/ic_arrowes" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/button_right_up"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:onClick="move_laser_ne"
-        app:layout_constraintBottom_toTopOf="@+id/imageView5"
+        app:layout_constraintBottom_toTopOf="@+id/button_fire"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintStart_toEndOf="@+id/button_fire"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/ic_arrowne" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/button_left_up"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:onClick="move_laser_nw"
-        app:layout_constraintBottom_toTopOf="@+id/imageView5"
-        app:layout_constraintEnd_toStartOf="@+id/imageView5"
+        app:layout_constraintBottom_toTopOf="@+id/button_fire"
+        app:layout_constraintEnd_toStartOf="@+id/button_fire"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -47,20 +48,20 @@
         app:srcCompat="@drawable/ic_arrownw" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/button_left_down"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:onClick="move_laser_sw"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageView5"
+        app:layout_constraintEnd_toStartOf="@+id/button_fire"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/button_fire"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/ic_arrowsw" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/button_fire"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:onClick="fire_laser"
@@ -72,59 +73,59 @@
         app:srcCompat="@drawable/ic_geom" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/button_down"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:onClick="move_laser_s"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/imageView5"
-        app:layout_constraintStart_toStartOf="@+id/imageView5"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="@+id/button_fire"
+        app:layout_constraintStart_toStartOf="@+id/button_fire"
+        app:layout_constraintTop_toBottomOf="@+id/button_fire"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/ic_bottom" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/button_left"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:onClick="move_laser_w"
-        app:layout_constraintBottom_toTopOf="@+id/imageView4"
-        app:layout_constraintEnd_toStartOf="@+id/imageView5"
+        app:layout_constraintBottom_toTopOf="@+id/button_left_down"
+        app:layout_constraintEnd_toStartOf="@+id/button_fire"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/button_left_up"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/ic_left" />
 
     <ImageView
-        android:id="@+id/imageView8"
+        android:id="@+id/button_right"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginEnd="4dp"
         android:onClick="move_laser_e"
-        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintBottom_toTopOf="@+id/button_right_down"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/imageView5"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintStart_toEndOf="@+id/button_fire"
+        app:layout_constraintTop_toBottomOf="@+id/button_right_up"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/ic_right" />
 
     <ImageView
-        android:id="@+id/imageView9"
+        android:id="@+id/button_up"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="16dp"
         android:onClick="move_laser_n"
-        app:layout_constraintBottom_toTopOf="@+id/imageView5"
-        app:layout_constraintEnd_toEndOf="@+id/imageView5"
-        app:layout_constraintStart_toStartOf="@+id/imageView5"
+        app:layout_constraintBottom_toTopOf="@+id/button_fire"
+        app:layout_constraintEnd_toEndOf="@+id/button_fire"
+        app:layout_constraintStart_toStartOf="@+id/button_fire"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/ic_top" />
 
     <ImageView
-        android:id="@+id/imageView10"
+        android:id="@+id/button_connect"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:onClick="execute_laser_commands"
@@ -145,7 +146,7 @@
         android:id="@+id/messageText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/imageView10"
+        app:layout_constraintBottom_toTopOf="@+id/button_connect"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -156,4 +157,6 @@
         app:layout_constraintBottom_toTopOf="@+id/messageText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
+

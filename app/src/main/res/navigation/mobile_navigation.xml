@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_manager">
+
+    <fragment
+        android:id="@+id/nav_manager"
+        android:name="org.meerk40t.k40ntrol.ui.manager.ManagerFragment"
+        android:label="@string/menu_manager"
+        tools:layout="@layout/fragment_manager" />
+
+    <fragment
+        android:id="@+id/nav_navigate"
+        android:name="org.meerk40t.k40ntrol.ui.gallery.NavigateFragment"
+        android:label="@string/menu_navigate"
+        tools:layout="@layout/fragment_navigate" />
+
+    <fragment
+        android:id="@+id/nav_host"
+        android:name="org.meerk40t.k40ntrol.ui.host.HostFragment"
+        android:label="@string/menu_host"
+        tools:layout="@layout/fragment_host" />
+
+    <fragment
+        android:id="@+id/nav_controller"
+        android:name="org.meerk40t.k40ntrol.ui.controller.ControllerFragment"
+        android:label="@string/menu_controller"
+        tools:layout="@layout/fragment_controller" />
+
+
+</navigation>
