@@ -3,9 +3,29 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Tat/AndroidStudioProjects/K40ntrol/app/src/main/res/layout/activity_k40ntrol.xml" value="0.20479416362688901" />
+        <entry key="..\:/Users/Tat/AndroidStudioProjects/K40ntrol/app/src/main/res/layout/activity_k40ntrol2.xml" value="0.2046875" />
         <entry key="..\:/Users/Tat/AndroidStudioProjects/K40ntrol/app/src/main/res/layout/activity_main.xml" value="0.29528985507246375" />
+        <entry key="..\:/Users/Tat/AndroidStudioProjects/K40ntrol/app/src/main/res/layout/activity_network_host.xml" value="0.2046875" />
+        <entry key="..\:/Users/Tat/AndroidStudioProjects/K40ntrol/app/src/main/res/layout/app_bar_k40ntrol.xml" value="0.2046875" />
+        <entry key="..\:/Users/Tat/AndroidStudioProjects/K40ntrol/app/src/main/res/layout/content_k40ntrol.xml" value="0.2046875" />
+        <entry key="..\:/Users/Tat/AndroidStudioProjects/K40ntrol/app/src/main/res/layout/content_network_host.xml" value="0.2046875" />
+        <entry key="..\:/Users/Tat/AndroidStudioProjects/K40ntrol/app/src/main/res/layout/fragment_controller.xml" value="0.2046875" />
+        <entry key="..\:/Users/Tat/AndroidStudioProjects/K40ntrol/app/src/main/res/layout/fragment_first.xml" value="0.2046875" />
+        <entry key="..\:/Users/Tat/AndroidStudioProjects/K40ntrol/app/src/main/res/layout/fragment_gallery.xml" value="0.2046875" />
+        <entry key="..\:/Users/Tat/AndroidStudioProjects/K40ntrol/app/src/main/res/layout/fragment_home.xml" value="0.2046875" />
+        <entry key="..\:/Users/Tat/AndroidStudioProjects/K40ntrol/app/src/main/res/layout/fragment_host.xml" value="0.2046875" />
+        <entry key="..\:/Users/Tat/AndroidStudioProjects/K40ntrol/app/src/main/res/layout/fragment_manager.xml" value="0.25" />
+        <entry key="..\:/Users/Tat/AndroidStudioProjects/K40ntrol/app/src/main/res/layout/fragment_navigate.xml" value="0.2046875" />
+        <entry key="..\:/Users/Tat/AndroidStudioProjects/K40ntrol/app/src/main/res/layout/fragment_second.xml" value="0.2046875" />
+        <entry key="..\:/Users/Tat/AndroidStudioProjects/K40ntrol/app/src/main/res/layout/fragment_slideshow.xml" value="0.2046875" />
+        <entry key="..\:/Users/Tat/AndroidStudioProjects/K40ntrol/app/src/main/res/layout/nav_header_k40ntrol.xml" value="0.2046875" />
+        <entry key="..\:/Users/Tat/AndroidStudioProjects/K40ntrol/app/src/main/res/layout/network_fragment.xml" value="0.2046875" />
+        <entry key="..\:/Users/Tat/AndroidStudioProjects/K40ntrol/app/src/main/res/menu/activity_main_drawer.xml" value="0.2046875" />
+        <entry key="..\:/Users/Tat/AndroidStudioProjects/K40ntrol/app/src/main/res/menu/k40ntrol.xml" value="0.2046875" />
         <entry key="..\:/Users/Tat/AndroidStudioProjects/K40ntrol/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3614583333333333" />
         <entry key="..\:/Users/Tat/AndroidStudioProjects/K40ntrol/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3614583333333333" />
+        <entry key="..\:/Users/Tat/AndroidStudioProjects/K40ntrol/app/src/main/res/xml/root_preferences.xml" value="0.2046875" />
       </map>
     </option>
   </component>
